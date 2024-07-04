@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Elementor Website Builder &#8211; More than Just a Page Builder - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-06-13 10:08:12+0000\n"
+"PO-Revision-Date: 2024-06-28 15:34:26+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -2115,7 +2115,7 @@ msgstr "Écran large"
 
 #: core/base/db-upgrades-manager.php:114
 msgid "Database update process is running in the background. Taking a while?"
-msgstr "Le processus de mise à jour de la base de données est exécuté en arrière-plan. Ça prend du temps ?"
+msgstr "Le processus de mise à jour de la base de données est exécuté en arrière-plan. Cela peut prendre du temps."
 
 #: core/admin/admin-notices.php:326
 msgid "With Elementor Pro, you can control user access and make sure no one messes up your design."
