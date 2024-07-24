@@ -3,6 +3,64 @@ Theme Name: Planty
 Description: Theme enfant de Planty
 Author: Dominique.Pariel
 Author URI:
-Template: hello-elementor
+Template: astra
 Version: 0.1.0
 */
+
+/* css carre blanc */
+p label{
+    
+    font-size: 20px;
+    font-family: syne
+}
+
+.carre-blanc {
+    width:39px;
+    height: 56px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-left:100px;
+   
+}
+/********/
+
+/* Structure du formulaire en deux colonnes */
+.formulaire-deux-colonnes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Espace entre les colonnes */
+}
+
+.colonne-gauche,
+.colonne-droite {
+    flex: 1;
+    min-width: 300px; /* Largeur minimale des colonnes */
+}
+
+.colonne-gauche label,
+.colonne-droite label {
+    display: block;
+    margin-bottom: 10px; /* Espacement entre les champs */
+}
+
+/* Style du bouton de soumission */
+.formulaire-bouton {
+    text-align: center; /* Centrer le bouton */
+    margin-top: 20px; /* Marge supérieure */
+}
+
+.button-envoyer {
+    color: white; /* Couleur du texte */
+    padding: 10px 20px; /* Espacement interne */
+    border: none; /* Pas de bordure */
+    border-radius: 5px; /* Bords arrondis */
+    cursor: pointer; /* Curseur pointeur */
+    font-size: 16px; /* Taille de la police */
+    transition: background-color 0.3s ease; /* Transition douce pour le changement de couleur de fond */
+    display: inline-block;
+}
+
+
